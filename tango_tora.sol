@@ -19,8 +19,8 @@ contract RupeeniumToken is Context, IBEP20, Ownable {
     mapping(address => uint256) private stakedBalances;
 
     constructor() {
-        _name = "Rupeenium";
-        _symbol = "RUPE";
+        _name = "Tango Tora";
+        _symbol = "TANGO";
         _decimals = 18;
         _totalSupply = 1_000_000_000_000 * 10**18; // 1 trillion tokens with 18 decimals
         _balances[msg.sender] = _totalSupply;
